@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash-move > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - react-color > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - react-debounce-render > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - react-sortable-hoc > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - redux > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - grunt-electron-installer-debian > electron-installer-debian > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - grunt-electron-installer-redhat > electron-installer-redhat > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > graphlib > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > dagre > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > dagre-d3 > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - react-color > reactcss > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - grunt-electron-installer-debian > electron-installer-debian > async > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - grunt-electron-installer-redhat > electron-installer-redhat > async > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > dagre > graphlib > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > dagre-d3 > graphlib > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > dagre-d3 > dagre > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - aws-sdk-mobile-analytics > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - mermaid > dagre-d3 > dagre > graphlib > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
+    - turndown > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-03-26T00:34:21.186Z'
