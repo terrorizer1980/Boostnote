@@ -14,7 +14,9 @@
     "fix": "eslint . --fix",
     "lint": "eslint .",
     "dev": "cross-env NODE_ENV=development node dev-scripts/dev.js",
-    "watch": "webpack-dev-server --hot"
+    "watch": "webpack-dev-server --hot",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "config": {
     "electron-version": "4.2.12"
@@ -126,7 +128,8 @@
     "turndown-plugin-gfm": "^1.0.2",
     "typo-js": "^1.0.3",
     "unique-slug": "2.0.0",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "ava": "^0.25.0",
@@ -218,5 +221,6 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
-  }
+  },
+  "snyk": true
 }
