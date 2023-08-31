@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - grunt-electron-installer-debian > electron-installer-debian > lodash:
+        patched: '2023-08-31T16:38:41.514Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-electron-installer-debian > electron-installer-debian > lodash
+    - grunt-electron-installer-redhat > electron-installer-redhat > lodash:
+        patched: '2023-08-31T16:38:41.514Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-electron-installer-redhat > electron-installer-redhat > lodash
+    - grunt-electron-installer-debian > electron-installer-debian > async > lodash:
+        patched: '2023-08-31T16:38:41.514Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          grunt-electron-installer-debian > electron-installer-debian > async >
+          lodash
+    - grunt-electron-installer-redhat > electron-installer-redhat > async > lodash:
+        patched: '2023-08-31T16:38:41.514Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          grunt-electron-installer-redhat > electron-installer-redhat > async >
+          lodash
